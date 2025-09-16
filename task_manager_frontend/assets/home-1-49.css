@@ -1,0 +1,314 @@
+/* Screen: home (1:49) */
+#home-1-49 {
+  width: var(--screen-width);
+  height: var(--screen-height);
+  background: var(--color-ffffff);
+  border-radius: var(--radius-35);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Using absolute positions based on Figma coordinates.
+   Note: The Figma's global coordinates include negative offsets.
+   We recalculated positions relative to the frame (0,0) by subtracting the frame origin (-1010, -1006).
+   Therefore: left = x - (-1010) = x + 1010; top = y - (-1006) = y + 1006.
+*/
+
+/* Header: Foodgo */
+#el-1-50 {
+  left: 19px;  /* -991 + 1010 */
+  top: 28px;   /* -978 + 1006 */
+  width: 129px;
+  height: 61px;
+}
+
+/* Subtitle */
+#el-1-51 {
+  left: 19px;
+  top: 89px;   /* -917 + 1006 */
+  width: 238px;
+  height: 27px;
+}
+
+/* Avatar mask group */
+#grp-1-52 {
+  left: 351px; /* -659 + 1010 */
+  top: 28px;   /* -978 + 1006 */
+  width: 60px;
+  height: 60px;
+}
+#rect-1-53 {
+  left: 351px;
+  top: 28px;
+  width: 60px;
+  height: 60px;
+  background: var(--color-d9d9d9);
+  border-radius: var(--radius-20);
+}
+#img-1-54 {
+  left: 322px; /* -688 + 1010 */
+  top: 25px;   /* -981 + 1006 */
+  width: 106px;
+  height: 73px;
+  object-fit: cover;
+}
+
+/* Search and filter group (Group 3) */
+#grp-1-55 {
+  left: 19px;  /* -991 + 1010 */
+  top: 163px;  /* -843 + 1006 */
+  width: 392px;
+  height: 60px;
+}
+
+/* Search rectangle (319x60 with shadow_0) */
+#rect-1-56 {
+  left: 19px;
+  top: 163px;
+  width: 319px;
+  height: 60px;
+  background: var(--color-ffffff);
+  border-radius: var(--radius-20);
+  box-shadow: var(--shadow-0);
+}
+
+/* Filter button group (right square 60x60) */
+#grp-1-57 {
+  left: 351px;
+  top: 163px;
+  width: 60px;
+  height: 60px;
+}
+#rect-1-58 {
+  left: 351px;
+  top: 163px;
+  width: 60px;
+  height: 60px;
+  background: var(--color-ef2a39);
+  border-radius: var(--radius-20);
+  box-shadow: var(--shadow-1);
+}
+#icon-1-59 {
+  left: 369px; /* -641 + 1010 */
+  top: 181px;  /* -825 + 1006 */
+  width: 24px;
+  height: 24px;
+}
+
+/* Search icon and text group */
+#grp-1-60 {
+  left: 39px;  /* -971 + 1010 */
+  top: 181px;  /* -825 + 1006 */
+  width: 104px;
+  height: 24px;
+}
+
+#icon-1-61 {
+  left: 39px;
+  top: 181px;
+  width: 24px;
+  height: 24px;
+}
+#txt-1-62 {
+  left: 87px;  /* -923 + 1010 */
+  top: 182px;  /* -824 + 1006 */
+  width: 56px;
+  height: 21px;
+}
+
+/* Category frame area */
+#frm-1-63 {
+  left: -1px;   /* -1011 + 1010 */
+  top: 264px;   /* -742 + 1006 */
+  width: 412px;
+  height: 50px;
+}
+/* inner horz frame */
+#frm-1-64 {
+  left: 19px;   /* -991 + 1010 */
+  top: 264px;
+  width: 467px;
+  height: 50px;
+}
+
+/* Category: All (active) */
+#grp-1-65 { left: 19px; top: 264px; width: 75px; height: 50px; }
+#rect-1-66 {
+  left: 19px; top: 264px; width: 75px; height: 50px;
+  background: var(--color-ef2a39);
+  border-radius: var(--radius-20);
+  box-shadow: var(--shadow-1);
+}
+#txt-1-67 {
+  left: 46px;  /* -964 + 1010 */
+  top: 279px;  /* -727 + 1006 */
+  width: 20px; height: 19px;
+}
+
+/* Category: Combos */
+#grp-1-68 { left: 108px; top: 264px; width: 120px; height: 50px; }
+#rect-1-69 {
+  left: 108px; top: 264px; width: 120px; height: 50px;
+  background: var(--color-f3f4f6);
+  border-radius: var(--radius-20);
+}
+#txt-1-70 {
+  left: 136px; /* -874 + 1010 */
+  top: 279px;  /* -727 + 1006 */
+  width: 64px; height: 19px;
+}
+
+/* Category: Sliders */
+#grp-1-71 { left: 242px; top: 264px; width: 120px; height: 50px; }
+#rect-1-72 {
+  left: 242px; top: 264px; width: 120px; height: 50px;
+  background: var(--color-f3f4f6);
+  border-radius: var(--radius-20);
+}
+#txt-1-73 {
+  left: 275px; /* -735 + 1010 */
+  top: 280px;  /* -726 + 1006 */
+  width: 53px; height: 19px;
+}
+
+/* Category: Classic */
+#grp-1-74 { left: 376px; top: 264px; width: 110px; height: 50px; }
+#rect-1-75 {
+  left: 376px; top: 264px; width: 110px; height: 50px;
+  background: var(--color-f3f4f6);
+  border-radius: var(--radius-20);
+}
+#txt-1-76 {
+  left: 403px; /* -607 + 1010 */
+  top: 279px;  /* -727 + 1006 */
+  width: 56px; height: 19px;
+}
+
+/* Grid Group 14 container (content cards) */
+#grp-1-77 {
+  left: 19px;  /* -991 + 1010 */
+  top: 355px;  /* -651 + 1006 */
+  width: 392px; height: 481px;
+}
+
+/* Card 1 (Group 10) */
+#grp-1-78 { left: 19px; top: 355px; width: 185px; height: 225px; }
+#rect-1-79 {
+  left: 19px; top: 355px; width: 185px; height: 225px;
+  background: var(--color-ffffff);
+  border-radius: var(--radius-20);
+  box-shadow: var(--shadow-2);
+}
+#icon-1-80 { left: 169px; top: 541px; width: 24px; height: 24px; }
+#txt-1-81 { left: 30px; top: 491px; width: 117px; height: 44px; }
+#ellipse-1-82 { left: 66px; top: 464px; width: 91px; height: 11px; background: var(--color-000000); border-radius: 50%; opacity: 0.06; }
+#img-1-83 { left: 51px; top: 360px; width: 120px; height: 121.7578px; object-fit: cover; }
+#grp-1-84 { left: 30px; top: 544px; width: 44px; height: 22px; }
+#icon-1-85 { left: 30px; top: 547px; width: 16px; height: 16px; }
+#txt-1-86 { left: 51px; top: 544px; width: 23px; height: 22px; }
+
+/* Card 2 (Group 11) */
+#grp-1-87 { left: 226px; top: 355px; width: 185px; height: 225px; }
+#rect-1-88 {
+  left: 226px; top: 355px; width: 185px; height: 225px;
+  background: var(--color-ffffff);
+  border-radius: var(--radius-20);
+  box-shadow: var(--shadow-2);
+}
+#icon-1-89 { left: 376px; top: 541px; width: 24px; height: 24px; }
+#txt-1-90 { left: 237px; top: 491px; width: 117px; height: 44px; }
+#ellipse-1-91 { left: 273px; top: 465px; width: 91px; height: 11px; background: var(--color-000000); border-radius: 50%; opacity: 0.06; }
+#img-1-92 { left: 258px; top: 366px; width: 120px; height: 120px; object-fit: cover; }
+#grp-1-93 { left: 237px; top: 544px; width: 44px; height: 22px; }
+#icon-1-94 { left: 237px; top: 547px; width: 16px; height: 16px; }
+#txt-1-95 { left: 258px; top: 544px; width: 23px; height: 22px; }
+
+/* Card 3 (Group 12) */
+#grp-1-96 { left: 19px; top: 611px; width: 185px; height: 225px; }
+#rect-1-97 {
+  left: 19px; top: 611px; width: 185px; height: 225px;
+  background: var(--color-ffffff);
+  border-radius: var(--radius-20);
+  box-shadow: var(--shadow-2);
+}
+#icon-1-98 { left: 169px; top: 797px; width: 24px; height: 24px; }
+#txt-1-99 { left: 30px; top: 747px; width: 117px; height: 44px; }
+#icon-1-100 { left: 59px; top: 718px; width: 110px; height: 15.7609px; background: var(--color-000000); opacity: 0.06; border-radius: 20px; }
+#img-1-101 { left: 39px; top: 611px; width: 150px; height: 137.7px; object-fit: cover; }
+#grp-1-102 { left: 30px; top: 800px; width: 44px; height: 22px; }
+#icon-1-103 { left: 30px; top: 803px; width: 16px; height: 16px; }
+#txt-1-104 { left: 51px; top: 800px; width: 23px; height: 22px; }
+
+/* Card 4 (Group 13) */
+#grp-1-105 { left: 226px; top: 611px; width: 185px; height: 225px; }
+#rect-1-106 {
+  left: 226px; top: 611px; width: 185px; height: 225px;
+  background: var(--color-ffffff);
+  border-radius: var(--radius-20);
+  box-shadow: var(--shadow-2);
+}
+#icon-1-107 { left: 376px; top: 797px; width: 24px; height: 24px; }
+#txt-1-108 { left: 237px; top: 747px; width: 158px; height: 44px; }
+#icon-1-109 { left: 266.5px; top: 721px; width: 112px; height: 11px; background: var(--color-000000); opacity: 0.06; border-radius: 20px; }
+#img-1-110 { left: 256px; top: 636px; width: 145px; height: 100.5938px; object-fit: cover; }
+#grp-1-111 { left: 237px; top: 800px; width: 44px; height: 22px; }
+#icon-1-112 { left: 237px; top: 803px; width: 16px; height: 16px; }
+#txt-1-113 { left: 258px; top: 800px; width: 23px; height: 22px; }
+#icon-1-114 { left: 376.821px; top: 711.5px; width: 26.6794px; height: 27px; }
+
+/* Bottom bar group (Group 16) */
+#grp-1-115 { left: -19px; top: 856px; width: 456px; height: 90px; }
+#bool-1-116 {
+  left: -19px; top: 856px; width: 456px; height: 90px;
+  background: var(--color-ef2a39);
+}
+#icon-1-117 { display: none; } /* Combined in bool shape */
+#ellipse-1-118 {
+  left: 174px; top: 815px; width: 82px; height: 82px;
+  background: var(--color-d9d9d9);
+  border-radius: 50%;
+}
+
+/* Two overlapping red ellipses */
+#grp-1-119 { left: 103px; top: 856px; width: 224px; height: 82px; }
+#ellipse-1-120 {
+  left: 103px; top: 856px; width: 82px; height: 82px;
+  background: var(--color-ef2a39);
+  border-radius: 50%;
+}
+#ellipse-1-121 {
+  left: 245px; top: 856px; width: 82px; height: 82px;
+  background: var(--color-ef2a39);
+  border-radius: 50%;
+}
+
+/* Bottom nav icons */
+#icon-1-122 { left: 376px; top: 873px; width: 24px; height: 24px; }
+#icon-1-123 { left: 31px;  top: 873px; width: 24px; height: 24px; }
+#icon-1-124 { left: 113px; top: 873px; width: 24px; height: 24px; }
+#icon-1-125 { left: 294px; top: 873px; width: 24px; height: 24px; }
+
+/* Small ellipse dot */
+#ellipse-1-126 {
+  left: 41px; top: 905px; width: 4px; height: 4px; background: var(--color-ffffff); border-radius: 50%;
+}
+
+/* Floating Action Button (Group 18) */
+#grp-1-127 { left: 179px; top: 808px; width: 72px; height: 72px; }
+#ellipse-1-128 {
+  left: 179px; top: 808px; width: 72px; height: 72px;
+  background: var(--color-ef2a39);
+  border-radius: 50%;
+  box-shadow: var(--shadow-3);
+}
+#grp-1-129 { left: 207px; top: 836px; width: 16px; height: 16px; }
+#line-1-130, #line-1-131 {
+  position: absolute;
+  background: var(--color-ffffff);
+}
+#line-1-130 {
+  left: 207px; top: 844px; width: 16px; height: 5px; border-radius: 5px;
+}
+#line-1-131 {
+  left: 215px; top: 836px; width: 5px; height: 16px; border-radius: 5px;
+}
