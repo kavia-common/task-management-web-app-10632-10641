@@ -1,0 +1,88 @@
+:root {
+  /* Ocean Professional - Playful theme */
+  --ocean-primary: #EC4899;   /* pink */
+  --ocean-secondary: #8B5CF6; /* purple */
+  --ocean-success: #10B981;
+  --ocean-error: #EF4444;
+  --ocean-bg: #FDF2F8;
+  --ocean-surface: #FFFFFF;
+  --ocean-text: #374151;
+  --ocean-gradient-start: #FCE7F3; /* pink-100 */
+  --ocean-gradient-mid: #EDE9FE;   /* purple-100 */
+  --ocean-gradient-end: #DBEAFE;   /* blue-100 */
+
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+  --radius-24: 24px;
+  --radius-28: 28px;
+  --radius-35: 35px;
+
+  --shadow-soft: 0 8px 24px rgba(139, 92, 246, 0.15);
+  --shadow-elevated: 0 20px 40px rgba(236, 72, 153, 0.20);
+}
+
+body {
+  background: linear-gradient(135deg, var(--ocean-gradient-start), var(--ocean-gradient-mid), var(--ocean-gradient-end));
+  min-height: 100vh;
+  color: var(--ocean-text);
+}
+
+/* App shell surface */
+.app-surface {
+  background: var(--ocean-surface);
+  border-radius: var(--radius-35);
+  box-shadow: var(--shadow-elevated);
+}
+
+/* Playful buttons */
+.btn {
+  border: 0;
+  border-radius: 9999px;
+  padding: 0.75rem 1.25rem;
+  font-weight: 600;
+  transition: transform 120ms ease, box-shadow 120ms ease, background-color 200ms ease;
+}
+.btn:active { transform: translateY(1px) scale(0.99); }
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--ocean-primary), var(--ocean-secondary));
+  color: white;
+  box-shadow: 0 10px 20px rgba(236, 72, 153, 0.3);
+}
+
+.btn-secondary {
+  background: rgba(139, 92, 246, 0.1);
+  color: var(--ocean-secondary);
+}
+
+/* Tag chip */
+.chip {
+  background: rgba(236, 72, 153, 0.08);
+  color: var(--ocean-primary);
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+  font-weight: 600;
+}
+
+/* Utility */
+.rounded-20 { border-radius: var(--radius-20); }
+.rounded-24 { border-radius: var(--radius-24); }
+.rounded-28 { border-radius: var(--radius-28); }
+
+.card {
+  background: var(--ocean-surface);
+  border-radius: var(--radius-20);
+  box-shadow: var(--shadow-soft);
+}
+
+.header-gradient {
+  background: linear-gradient(135deg, var(--ocean-primary), var(--ocean-secondary));
+  color: white;
+}
+
+.sidebar {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(6px);
+  border-right: 1px solid rgba(139, 92, 246, 0.15);
+}

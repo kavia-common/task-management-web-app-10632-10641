@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "../styles/theme.css";
 
 export const metadata: Metadata = {
-  title: "Minimal Next.js App",
-  description: "Ultra-minimal Next.js application",
+  title: "Foodgo | Ocean Professional",
+  description: "Playful task/food manager interface with Next.js",
 };
 
 export default function RootLayout({
